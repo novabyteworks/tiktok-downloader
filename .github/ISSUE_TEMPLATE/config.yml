@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Licence keys and payments
+    url: https://novabyteworks.com/tiktok#faq
+    about: Please write to support@novabyteworks.com. Never post a licence key in an issue.
+  - name: How-to guides
+    url: https://novabyteworks.com/guides
+    about: Short step-by-step answers for each site.

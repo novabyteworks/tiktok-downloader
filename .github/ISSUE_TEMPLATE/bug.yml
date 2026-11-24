@@ -1,0 +1,46 @@
+name: Bug report
+description: Something did not work, or a download went wrong
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time. Please do not post a licence key, a password or anything private here.
+        For keys and payments, write to support@novabyteworks.com.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what you saw. Please copy any message the panel showed.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: What were you saving?
+      description: The kind of page, for example "a profile with about 300 videos", "a photo post" or "a single video". A link helps if the page is public.
+  - type: input
+    id: version
+    attributes:
+      label: Extension version
+      description: Shown on chrome://extensions, next to the extension's name.
+      placeholder: "1.0.3"
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and computer
+      placeholder: "Chrome 142 on Windows 11"
+    validations:
+      required: true
+  - type: dropdown
+    id: plan
+    attributes:
+      label: Your plan
+      options:
+        - "Free"
+        - "Monthly"
+        - "Lifetime"
+        - "Golden key"
+        - "Not sure"
